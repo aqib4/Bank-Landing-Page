@@ -3,8 +3,8 @@ import styles, {layout} from "../Style"
 import {footerLinks, socialMedia} from "../constants"
 
 const Footer = () => (
-     <section className="mt-10">
-      
+     <section className="mt-10 relative">
+      <div className=" absolute w-[80%] h-[80%] rounded-full -left-[60%] z-0 blue__gradient"></div>
       <div className="flex flex-col md:flex-row w-full justify-between items-center mb-10">
         <div>
         <img src={logo} alt="Logo" className="mb-4"/>
