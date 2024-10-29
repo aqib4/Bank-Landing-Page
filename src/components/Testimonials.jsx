@@ -4,8 +4,8 @@ import styles, { layout } from "../Style";
 
 
 const Testimonials = () => (
-  <section className={`pt-10 flex flex-col relative`}>
-<div className="absolute w-[50%] h-[50%] right-1/2 top-0 z-0 rounded-full bg-blue__gradient"></div>
+  <section className={`pt-10 flex flex-col relative `}>
+<div className="absolute w-[60%] h-[60%] -right-[50%] top-[10%] z-0 rounded-full blue__gradient"></div>
    
     <div className="flex flex-1 sm:flex-row flex-col justify-between items-center ">
       <h2 className={`${styles.heading2} flex-1`}>What People are <b className="hidden ss:inline-block "/> Saying about us</h2>
